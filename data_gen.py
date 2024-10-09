@@ -19,6 +19,7 @@ def generate_data_stream(n_points=10000, anomaly_prob=0.01):
             point += random.choice([-50, 50])
 
         yield point
+
         # Simulate real-time data by adding a slight delay
         # time.sleep(0.01)
 

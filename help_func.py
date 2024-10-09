@@ -6,6 +6,7 @@ import subprocess # For sound alert on MacOS and Linux
 logging.basicConfig(filename='anomaly_log.txt', level=logging.INFO,
                     format='%(asctime)s - Anomaly detected: %(message)s')
 
+
 def log_anomaly(data_point):
     """Logs anomaly data points to a file."""
     logging.info(f'{data_point}')
